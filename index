@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Petrograd 1917</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <div id="stats">
+      <p>📦 Resources: <span id="resources">3</span></p>
+      <p>💰 Budget: <span id="budget">1</span></p>
+      <p>🏛️ Sovnarkom: <span id="sovnarkom">0</span></p>
+    </div>
+
+    <div id="card">
+      <h2 id="card-title">Loading...</h2>
+      <p id="card-text"></p>
+      <div id="card-options"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
