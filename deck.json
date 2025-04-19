@@ -1,0 +1,36 @@
+[
+  {
+    "id": "opening_card",
+    "title": "The October Storm",
+    "text": "The Provisional Government is collapsing. The Soviets are restless. You are a faction leader in Petrograd — your choices will shape the revolution.",
+    "options": [
+      {
+        "text": "Seize the telegraph offices",
+        "effects": { "resources": -1, "sovnarkom": 1 },
+        "next": "media_card"
+      },
+      {
+        "text": "Rally the workers first",
+        "effects": { "resources": 0, "sovnarkom": 0 },
+        "next": "strike_card"
+      }
+    ]
+  },
+  {
+    "id": "media_card",
+    "title": "Control the Press",
+    "text": "You attempt to seize control of key Petrograd newspapers.",
+    "options": [
+      {
+        "text": "Censor them harshly",
+        "effects": { "resources": -1, "sovnarkom": 1 },
+        "next": null
+      },
+      {
+        "text": "Let them publish under party guidance",
+        "effects": { "resources": 0, "sovnarkom": 0 },
+        "next": null
+      }
+    ]
+  }
+]
